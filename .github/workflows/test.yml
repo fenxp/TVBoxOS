@@ -172,7 +172,7 @@ jobs:
         if: ${{ env.commit }}
         working-directory: TVBoxOSC
         env:
-          CHAT_ID: -1001734684817
+          CHAT_ID: -4171535796
           TELEGRAM_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
           if [ -n "${{ secrets.BOT_TOKEN }}" ]; then
